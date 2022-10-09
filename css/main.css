@@ -56,3 +56,12 @@ a {
 .bloque:hover {
     background-color: darkkhaki;
 }
+
+input {
+    margin-bottom: 10px;
+}
+
+.contenidoCentrado {
+    margin-top: 50px;
+    text-align: center;
+}

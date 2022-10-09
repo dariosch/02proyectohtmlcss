@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <script src="https://kit.fontawesome.com/f173242a0d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css" />
-    <title>Qevts - Pagina de eventos basica HTML+CSS</title>
+    <title>Qevts - Contacto</title>
 </head>
 <body>
     <header>
@@ -15,23 +15,28 @@
     </header>
     <hr><br>
     <div class="menuP">
-        <div><a class="activo" href="#">Home</a></div>
+        <div><a href="index.html" class="itemMenu">Home</a></div>
         <div><a href="#" class="itemMenu">Destacados</a></div>
         <div><a href="ubicaciones.html" class="itemMenu">Lugares</a></div>
         <div><a href="fechas.html" class="itemMenu">Fechas</a></div>
-        <div><a href="contacto.html" class="itemMenu">Suma tu evento!</a></div>
+        <div><a href="#" class="activo">Suma tu evento!</a></div>
     </div>
     <br><hr>
-    <div class="opciones">
-        <div class="bloque">
-            <a class="itemMenu" href="ubicaciones.html">Ver por Ubicacion</a>
-        </div>
-        <div class="bloque">
-            <a class="itemMenu" href="#">Ver por Fechas</a>
-        </div>
-        <div class="bloque">
-            <a class="itemMenu" href="#">Ver por Artistas</a>
-        </div>
+    <div class="contenidoCentrado">
+        <h4>Dejanos tu evento!</h4>
+        <br>
+        <form action="">
+            Nombre: <input type="text"><br>
+            Fecha: <input type="date"><br>
+            Lugar: <input type="text"><br>
+            Artistas: <input type="text"><br>
+            Link para entradas: <input type="url"><br>
+            Detalles extra: <input type="text"><br>
+            Email de contacto: <input type="email"><br>
+            Telefono de contacto: <input type="tel"><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
     </div>
 </body>
 </html>
