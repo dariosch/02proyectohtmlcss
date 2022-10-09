@@ -1,5 +1,6 @@
 body {
     background-color: #fffff1;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -15,11 +16,43 @@ header {
     text-align: center;
 }
 
-.itemMenu:hover {
+.activo {
+    color: darkgray;
+    font-weight: 600;
+}
+
+.activo:hover{
     color: gray;
 }
 
-.activo {
-    color: darkgray;
+.itemMenu {
+    color: black;
 }
 
+.itemMenu:hover{
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.opciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    column-gap: 20px;
+    justify-content: space-around;
+}
+
+.bloque {
+    background-color: lightgray;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloque:hover {
+    background-color: darkkhaki;
+}
