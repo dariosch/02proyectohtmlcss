@@ -1,0 +1,25 @@
+body {
+    background-color: #fffff1;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.menuP{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.itemMenu:hover {
+    color: gray;
+}
+
+.activo {
+    color: darkgray;
+}
+
